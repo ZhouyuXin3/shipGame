@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+  <head>
+    <title>js array</title>
+    <mata charset = "utf-8">
+  </head>
+  <body>
+    <script>
+    var scores = [60, 90, 60, 58, 54, 14, 58, 50, 52,
+                  54, 48, 69, 34, 55, 51, 52, 44, 66];
+    var min = scores[0];
+    for (var i = 0; i < scores.length; i++){
+      if (scores[i] < min){
+        min = scores[i];
+      }
+    }
+
+    
+    document.write("数组中最小的是:"+ min +" <br>");
+    </script>
+  </body>
+</html>
